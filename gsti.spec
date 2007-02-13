@@ -1,5 +1,5 @@
 Summary:	GNU Secure Transport Initiative
-Summary(pl.UTF-8):   GNU Secure Transport Initiative - biblioteka bezpiecznego transportu
+Summary(pl.UTF-8):	GNU Secure Transport Initiative - biblioteka bezpiecznego transportu
 Name:		gsti
 Version:	0.3.0
 Release:	1
@@ -26,7 +26,7 @@ SSH do stworzenia bezpiecznego kanału transportowego.
 
 %package devel
 Summary:	Header files for GSTI library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki GSTI
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki GSTI
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -38,7 +38,7 @@ Pliki nagłówkowe biblioteki GSTI.
 
 %package static
 Summary:	Static GSTI library
-Summary(pl.UTF-8):   Statyczna biblioteka GSTI
+Summary(pl.UTF-8):	Statyczna biblioteka GSTI
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
