@@ -5,10 +5,10 @@ Version:	0.3.0
 Release:	1
 License:	GPL v2+
 Group:		Libraries
-Source0:	ftp://ftp.gnupg.org/gcrypt/alpha/gsti/%{name}-%{version}.tar.bz2
+Source0:	https://www.gnupg.org/ftp/gcrypt/alpha/gsti/%{name}-%{version}.tar.bz2
 # Source0-md5:	e748f986f621b3d8d8579368ba7e4b1f
 Patch0:		%{name}-link.patch
-URL:		http://www.gnupg.org/
+URL:		https://www.gnupg.org/
 BuildRequires:	autoconf >= 2.59
 BuildRequires:	automake >= 1.9.3
 BuildRequires:	libgcrypt-devel >= 1.2.0
